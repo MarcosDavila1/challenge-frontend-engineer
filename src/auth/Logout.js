@@ -6,11 +6,11 @@ function Logout() {
 
     const { logout } = useAuth0()
 
-  return (
+  return ( 
     <div>
         <button className='btnLogout' onClick={()=> logout({returnTo: process.env.REACT_APP_RETURN_TO})}>
             Logout
-        </button>
+        </button> 
     </div>
   )
 }

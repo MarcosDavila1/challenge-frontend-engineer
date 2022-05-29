@@ -9,7 +9,7 @@ function Login() {
   return (
     <button className='btnLogin' onClick={()=> loginWithRedirect()}>
         Login
-    </button>
+    </button> 
   )
 }
 
