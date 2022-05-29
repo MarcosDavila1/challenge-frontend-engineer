@@ -1,0 +1,1 @@
+Este componente renderiza un boton que al hacer click se ejecuta un hook de Auth0 para poder iniciar sesión.

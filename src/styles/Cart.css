@@ -1,0 +1,81 @@
+.containerCart{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1.5rem;
+    right: 3rem;
+}
+.containerCart img{
+    cursor: pointer;
+    position: absolute;
+    width: 2rem;
+}
+.containerCart img:hover{
+    animation: 0.5s infinite balance;
+}
+@keyframes balance{
+    20%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+
+.containerFloatCart{
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    width: 22rem;
+    height: 20rem;
+    background-color: #ffffff;
+    box-shadow: 1px 2px 15px 10px #696969;
+    overflow-y: scroll;
+}
+
+.itemCart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid #909090;
+}
+.itemCart img{
+    width: 5rem;
+}
+
+.cartInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 5rem;
+}
+.cartInfo h4{
+    font-weight: 400;
+    margin: 0;
+}
+
+.cartQty{
+    margin-right: 0.5rem;
+}
+.cartQty button{
+    background-color: transparent;
+    border: 1px solid #000000;
+    margin-left: 1rem;
+}
+.cartQty button:hover{
+    transition: 0.1s;
+    color: #ffffff;
+    background-color: #000000;
+}
+.cartQty h6{
+    margin: 0.5rem 0;
+    margin-left: 1rem;
+}

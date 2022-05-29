@@ -1,0 +1,1 @@
+Este componente renderiza el componente Slogan y el componente Login.

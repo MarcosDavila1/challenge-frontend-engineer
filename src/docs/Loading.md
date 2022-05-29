@@ -1,0 +1,1 @@
+Este componente es un Spinner que se renderiza cuanto otros componentes aún no se han renderizado.

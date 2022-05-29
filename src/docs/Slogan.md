@@ -1,0 +1,1 @@
+Este componente renderiza el nombre y el slogan de el Ecommerce.
